@@ -1,0 +1,274 @@
+
+body{
+    background-image: url(./logo6.png);
+}
+:root{
+    --color:rgb(238, 93, 93);
+    --secondery:blue;
+
+}
+#first{
+    color: rgb(243, 11, 11);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    
+}
+
+h2{
+    color: rgb(24, 223, 150);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#g{
+   margin: 20px;
+   padding: 20px;
+   background-color: antiquewhite;
+    font-size: 15px;
+    text-align: left;
+  
+}
+
+#second{
+    text-transform: uppercase;
+    color: rgb(130, 17, 93);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+   
+}
+
+#sixth{
+    color: rgb(142, 23, 197);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+
+
+#ninteen{
+    text-transform: uppercase;
+    color: rgb(197, 23, 130);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+
+
+#logo{
+    background-color: rgb(1, 68, 96);
+ 
+    text-align: center;
+  justify-content: space-between;
+    
+}
+#intro{
+    text-indent: 100px;
+    line-height: 50px;
+    text-align: justify;
+}
+#a{
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+   background-color: aliceblue;
+   box-shadow: 0px 2px 4px red;
+    font-size: 15px;
+    text-align: left;
+   
+}
+#third{
+    text-transform: uppercase;
+    color: rgba(35, 9, 234, 0.831);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#del{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(245, 130, 207);
+    box-shadow: 5px 2px 4px rgb(26, 82, 155);
+    align-items: center;
+}
+p{
+    color: rgb(106, 106, 240);
+    background-color: rgb(86, 245, 155);
+}
+#we{
+    padding: 5px;
+    margin: 30px;
+    background-color:var(--color);
+    box-shadow: 0px 3px 4px ;
+}
+#w{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}
+#ww{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 3px 4px ;
+}
+#line
+{
+    background-color: rgb(153, 245, 14);
+    border-radius: 10px;
+ 
+}
+#line ul
+{
+    text-align: center;
+   
+}
+#line  li a:hover
+{
+    text-decoration:solid;
+    
+}
+#b{
+   text-indent: 100px;
+   line-height: 40px;
+   text-align:start;
+    font-size: 15px;
+   
+    
+ 
+}
+
+.ba{
+    padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+   background-color: rgb(196, 240, 83);
+   box-shadow: 6px 5px 7px rgb(3, 177, 32);
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ba img{
+    width: 300px;
+    border-radius: 300px;
+}
+.c {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(73, 250, 135);
+    box-shadow: 2px 2px 4px rgb(169, 3, 3);
+    
+    font-size: 15px;
+    text-align: left;
+   
+}
+.c a{
+    padding: 20px;
+    background-color: rgb(247, 8, 8);
+    box-shadow: 0px 3px 4px ;
+}
+.c a:hover{
+    background: #2eaacc;
+}
+.c img{
+    border-radius: 20px;
+}
+
+  #wwe{
+    
+    box-shadow: 0px 2px 4px red;
+    margin: 25px;
+    background-color: aqua;
+  }
+  #wwe figure {
+    margin-left: 20px; 
+    order: 2; 
+  }
+  
+  #wwe img {
+    height: auto;
+    width:  350px;
+    border-radius: 30px;
+  }
+  
+  #wwe figcaption {
+    color: brown;
+    font-size: large;
+   align-items:baseline;
+  }
+  
+  #wwe strong u span {
+    color: var(--secondery);
+    font-size: larger;
+  }
+
+  #io
+  {
+    
+    box-shadow: 0px 2px 4px var(--secondery);
+    margin: 200px;
+    background-color: beige;
+  }
+  #io figcaption{
+    color: red;
+    font-size: larger;
+  }
+  #io img{
+    border-radius: 20px;
+  }
+ 
+#last{
+    background-color: rgb(99, 74, 239);
+    border-radius: 20px;
+    text-align: center;
+}
+nav ul li
+{
+    display: inline-block;
+}
+#fw{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}
+#fww{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}
+#fwww{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}
+#dat{
+    color: rgb(0, 25, 245);
+    background-color: red;
+}
+#q{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}
+#qq{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}
+#qqq{
+    padding: 5px;
+    margin: 30px;
+    background-color: var(--color);
+    box-shadow: 0px 2px 3px ;
+}

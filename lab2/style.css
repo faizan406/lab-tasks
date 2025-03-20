@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+    background-color: rgb(93, 174, 245);
+    /* background-image: url(image.jpg); */
+    /* background-size: center; */
+}
+
+
+#first{
+    color: rgb(243, 11, 11);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    background-color: rgb(38, 38, 179);
+}
+
+h2{
+    color: rgb(24, 223, 150);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#a{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(24, 111, 82);
+}
+
+#b{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(72, 136, 210);
+}
+
+#c{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(108, 53, 87);
+}
+
+#d{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(53, 157, 53);
+}
+
+#e{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(94, 132, 24);
+}
+
+#f{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(48, 36, 114);
+}
+
+
+#g{
+   
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(35, 128, 185);
+}
+
+#second{
+    color: rgb(130, 17, 93);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+   
+}
+#third{
+    color: rgba(234, 211, 9, 0.443);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#fourth{
+    color: rgb(153, 214, 12);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#fifth{
+    color: rgb(70, 209, 206);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#sixth{
+    color: rgb(142, 23, 197);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+
+#seventh{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: left;
+}
+
+#eight{
+    color: rgb(159, 178, 15);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+#ninteen{
+    color: rgb(197, 23, 130);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+}
+
+#ten{
+    color: rgb(39, 169, 10);
+    font-size: 30px;
+    font-weight: 150;
+    text-align: left;
+    
+}
