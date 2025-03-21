@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <div id="first">
+            <span id="second">
+        <img src="download.png" alt="hover"></span>
+        <Strong id="third">Student Information</Strong>
+    </div>
+    </header>
+    <h1>Student Detailed Gradesheet</h1>
+    <div class="container">
+    <span id="fourth">Student Record</span>
+
+    <table>
+        <colgroup>
+            <!-- <col style="background-color: rgb(216, 247, 247);"> -->
+        <col span="1" style="background-color: rgb(248, 248, 205);">
+    <col span="2" style="background-color: rgb(250, 215, 215);">    
+    <col style="background-color: rgb(244, 208, 195);">
+    <col style="background-color: rgb(221, 255, 255);">
+</colgroup>
+
+      <thead >
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        
+        <tr>
+            <td>04001</td>
+            <td>Faizan</td>
+            <td>PSP</td>
+            <td>61</td>
+            <td>D<sup>+</sup></td>
+        </tr>
+        <tr>
+            <td>04002</td>
+            <td>Ahmad</td>
+            <td>OOP</td>
+            <td>87</td>
+            <td>A<sup>+</sup></td>
+        </tr>
+        
+        <tr>
+            <td>04003</td>
+            <td>Ali</td>
+            <td>DSA</td>
+            <td>55</td>
+            <td>E<sup>-</sup></td>
+        </tr>
+        <tr>
+            <td>04004</td>
+            <td>Mansoor</td>
+            <td>ICT</td>
+            <td>50</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>04005</td>
+            <td>Mujtaba</td>
+            <td>ICO</td>
+            <td>60</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>04006</td>
+            <td>Umer</td>
+            <td>MATH</td>
+            <td>66</td>
+            <td>C<sup>+</sup></td>
+        </tr>
+        <tr>
+            <td>04007</td>
+            <td>Hassan</td>
+            <td>TOA</td>
+            <td>59</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>04008</td>
+            <td>Iqbal</td>
+            <td>CCN</td>
+            <td>70</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>04009</td>
+            <td>Wasif</td>
+            <td>AI</td>
+            <td>74</td>
+            <td>B<sup>+</sup></td>
+        </tr>
+        <tr>
+            <td>04010</td>
+            <td>Adnan</td>
+            <td>BIO</td>
+            <td>78</td>
+            <td>A</td>
+            
+        </tr>
+        
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Total Students</td>
+            <td>10</td>
+        </tr>
+    </tfoot>
+    </table>
+    <caption><strong id="cap">These are Overall Students</strong></caption>
+</div>
+<br>
+<br>
+    <form id="studentdform">
+        <br>
+        <h2 id="fo">Student Form</h2>
+       
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter NAME">
+        </div>
+
+<div>
+    <label for="Pass">Password</label>
+    <input type="password" name="Pass" id="Pass" placeholder="Password">
+</div>
+        <div>
+            <label for="Studenid">Student ID</label>
+            <input type="number" name="mynumber" id="Studenid" placeholder="ID">
+        </div>
+        
+<div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age"  placeholder="Enter Age">
+</div>
+    
+<div>
+    <label for="class">Class</label>
+    <select name="class" id="class">
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="1st semester" selected>1st semester</option>
+        <option value="2nd semester">2nd semester</option>
+        <option value="3rd semester">3rd semester</option>
+        <option value="4th semester">4th semester</option>
+    </select>
+
+</div>
+
+<div>
+    <label for="courses">Courses</label>
+    <select name="courses" id="courses">
+        <option value="PSP">PSP</option>
+        <option value="OOP">OOP</option>
+        <option value="DSA">DSA</option>
+        <option value="ICT">ICT</option>
+        <option value="MATH">MATH</option>
+        <option value="TOA">TOA</option>
+        <option value="PHYSICS">PHYSICS</option>
+    </select>
+
+</div>
+
+<div>
+    <label for="Expected">Expected Grades</label>
+    <input type="range" name="expected" id="Expected">
+</div>
+
+<div>
+    <label for="Marks">Marks</label>
+    <input type="number" name="number" id="Marks" placeholder="Enter Marks">
+</div>
+
+<div>
+    <label for="Grade">Grade</label>
+    <select name="grade" id="Grade">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+        
+    </select>
+
+</div>
+
+<div>
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="dob" id="dob">
+</div>
+
+<div>
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="phone" id="pnone" placeholder="Enter Phone Number">
+</div>
+
+
+<div>
+    <label for="criteria">Are You Eligible</label>
+    <input type="checkbox" name="eligible" id="criteria">
+</div>
+
+<div>
+    <label for="message">Message about Yourself</label>
+    <textarea name="message" id="message" rows="7" cols="12"></textarea>
+</div>
+
+
+<div>
+    <label for="time">Class time</label>
+    <input type="time" name="mytime" id="time">
+</div>
+
+<div>
+    <label for="Gender">Gender:</label>
+    Male <input type="radio" name="Gender" id="Gender">
+    Female <input type="radio" name="Gender" id="Gender">
+    Others <input type="radio" name="Gender" id="Gender">
+</div>
+
+<div>
+    <label for="file">Fee Challen</label>
+    <input type="file" name="myfile" id="file">
+</div>
+
+
+<fieldset>
+    <legend>Choose your favorite color:</legend>
+    <input type="radio" id="red" name="color" value="red">
+    <label for="red">Red</label><br>
+    <input type="radio" id="blue" name="color" value="blue">
+    <label for="blue">Blue</label><br>
+    <input type="radio" name="color" id="pink">
+    <label for="pink">Pink</label>
+  </fieldset>
+       
+
+
+ 
+  <div>
+    <label for="file">File progress:</label>
+<progress id="file" value="70" max="100">70%</progress>
+
+<label for="disk">Disk usage:</label>
+<meter id="disk" value="0.6">60%</meter>
+  </div>
+
+<div>
+    <label for="submit"></label>
+    <button>Add Student</button>
+   </div>
+   
+    </form>
+    <br>
+
+    <section class="report-container">
+        <h1>Project Report</h1>
+        <p>In this project, I created a simple web page to display student information and grades. The main goal was to provide a clear and organized way to present student records, including their IDs, names, courses, marks, and grades.</p>
+
+        <p>I started by structuring the HTML document with a header, a main content body, and a footer. The header includes a title and an image, which adds a visual element to the page. The main section features a table that lists the students' details. I used a <code>&lt;table&gt;</code> element to organize the data neatly, making it easy to read. Each row in the table represents a different student, and I included a footer to summarize the total number of students.</p>
+
+        <p>To enhance the user experience, I added a form for adding new student information. This form includes various input fields such as name, student ID, age, class, courses, expected grades, and more. There is a hover for each tb, tr and so on to make it looked cool. I made sure to include labels for each input to guide users on what information to provide. The form is styled to be visually appealing and user-friendly.I have apply different css style on button ,label etc.</p>
+
+        <p>For styling, I used CSS to create a reliable look throughout the page. I applied background colors, adjusted font sizes, and added hover effects to make the table interactive. The form is designed to stand out with a different background color and rounded corners, making it easy for users to focus on it.Styling i have used padding,margin, border etc to make it more reliable.</p>
+
+        <p>Overall, the project aimed to create a functional and visually appealing student information system that allows for easy viewing and input of student data. The combination of HTML for structure and CSS for styling ensures that the page is both informative and engaging.That make the page more beautiful</p>
+    </section>
+    <footer >
+        <strong>FAIZAN AHMAD</strong><br>
+        &copy;copyright reserved
+    </footer>
+</body>
+</html>
