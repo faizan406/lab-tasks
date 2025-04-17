@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fc;
+  color: #2b2d42;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #023e8a, #0077b6);
+  color: white;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.navbar {
+  background: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #023e8a;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00b4d8;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #caf0f8, #edf6f9);
+  padding: 60px 20px;
+  gap: 30px;
+  border-radius: 12px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero-img {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.hero a,
+.btn {
+  background: #023e8a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #00b4d8;
+}
+
+section {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h2 {
+  color: #023e8a;
+  margin-bottom: 15px;
+}
+
+mark {
+  background-color: #dff7f4;
+  color: #023e8a;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.followers-img {
+  width: 100px;
+  margin: 20px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.project-list a {
+  background: #00b4d8;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-list a:hover {
+  background: #023e8a;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background: linear-gradient(to right, #023e8a, #0077b6);
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+#about .container {
+  background: #fefae0;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#interests .container {
+  background: #e0f7fa;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#contact .container {
+  background: #fce8d5;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#followers .container {
+  background: #fff3bf;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#projects .container {
+  background: #e6ffe6;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#learned .container {
+  background: #f3e5f5;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#profile-card .container.profile-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #023e8a;
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-info h2 {
+  color: #023e8a;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  color: #2b2d42;
+  margin-bottom: 10px;
+}
+#profile-card .container.profile-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #023e8a;
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-info h2 {
+  color: #023e8a;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  color: #2b2d42;
+  margin-bottom: 10px;
+}
+
