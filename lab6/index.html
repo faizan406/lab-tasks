@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faizan Ahmad - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-800 dark:text-gray-100 min-h-screen flex flex-col">
+  <header class="bg-gradient-to-r from-blue-900 to-blue-600 text-white p-5">
+    <div class="max-w-6xl mx-auto flex items-center justify-between flex-wrap">
+      <a href="#"><img src="./logo.png" alt="Logo" class="h-16 rounded-lg hover:scale-110 hover:rotate-3 transition duration-300"></a>
+      <h1 class="text-3xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">Faizan Ahmad</h1>
+    </div>
+  </header>
+
+  <nav class="bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm p-4 shadow-lg sticky top-0 z-20">
+    <ul class="flex flex-wrap justify-center gap-4 sm:gap-6 list-none">
+      <li><a href="#hero" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">Home</a></li>
+      <li><a href="#about" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">About</a></li>
+      <li><a href="#interests" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">Interests</a></li>
+      <li><a href="#contact" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">Contact</a></li>
+      <li><a href="#followers" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">Followers</a></li>
+      <li><a href="#projects" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">Projects</a></li>
+      <li><a href="#learned" class="text-blue-600 dark:text-blue-300 font-bold text-base hover:text-blue-500 ">Learned</a></li>
+    </ul>
+  </nav>
+
+  <div class="py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
+    <section id="about" class="py-8">
+      <div class="group bg-yellow-50 p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+        <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-4 tracking-tight relative before:content-['→'] before:absolute before:-left-6 before:text-blue-500 before:font-bold">About Me</h2>
+        <p>
+          I'm currently studying Computer Science at <strong>Quaid-i-Azam University</strong> (6th semester). I value
+          <mark class="bg-teal-100 text-blue-900">authenticity</mark>, 
+          <mark class="bg-teal-100 text-blue-900">kindness</mark>, and 
+          <mark class="bg-teal-100 text-blue-900">personal growth</mark>. 
+          I believe in meaningful connections and always strive to learn something new every day.
+        </p>
+      </div>
+    </section>
+
+    <section id="profile-card" class="py-8 z-10">
+      <div class="flex flex-col items-center bg-white dark:bg-gray-700 p-6 rounded-2xl shadow-lg gap-6 border-l-4 border-blue-500 max-w-xs">
+        <img src="./image.jpeg" alt="Profile Picture" class="w-36 h-36 rounded-full object-cover border-4 border-blue-900 hover:scale-110 hover:brightness-110 hover:shadow-2xl hover:rotate-3 transition-all duration-300">
+        <div>
+          <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-2 tracking-tight">Faizan Ahmad</h2>
+          <p class="text-gray-800 dark:text-gray-200 mb-4">Computer Science Student | Tech Enthusiast | Football & WWE Fan</p>
+          <a href="https://github.com/faizan406/WAD_lab" class="bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition-colors">Visit GitHub</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+    <section id="interests" class="py-8">
+      <div class="group bg-cyan-50 dark:bg-gray-700 p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+        <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-4 tracking-tight relative before:content-['→'] before:absolute before:-left-6 before:text-blue-500 before:font-bold">My Interests</h2>
+        <p>
+          I enjoy <strong>football</strong>, <strong>WWE</strong>, playing video games, reading, and connecting with nature. These hobbies fuel my creativity and keep me motivated.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="py-8">
+      <div class="flex flex-col items-center bg-orange-50 dark:bg-gray-700 p-8 rounded-2xl shadow-lg border-l-4 border-blue-500 max-w-sm">
+        <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-4 tracking-tight before:text-blue-500 before:font-bold">Contact</h2>
+        <p>You can reach me on <strong>GitHub</strong> here:</p>
+        <a href="https://github.com/faizan406/WAD_lab" class="bg-blue-900 dark:bg-blue-800 text-white px-4 py-2 rounded-lg hover:bg-blue-500 dark:hover:bg-blue-600 focus:ring-2 focus:ring-blue-400 mt-4 inline-block transition-colors" target="_blank">GitHub Repository</a>
+        <img src="logo4.png" alt="Contact Image" class="w-32 h-32 rounded-lg object-cover mt-4 sm:w-40 sm:h-40 md:w-48 md:h-48 hover:scale-105 hover:brightness-110 hover:rotate-3 hover:shadow-2xl transition-all duration-300">
+      </div>
+    </section>
+
+    <section id="projects" class="py-8">
+      <div class="group bg-green-50 dark:bg-gray-700 p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+        <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-4 tracking-tight before:text-blue-500">Currently Working On</h2>
+        <ul class="flex gap-4 flex-wrap list-none mt-4">
+          <li><a href="#" class="bg-blue-500 dark:bg-blue-600 text-white px-4 py-2 rounded-full font-bold hover:bg-blue-900  ">HTML</a></li>
+          <li><a href="#" class="bg-blue-500 dark:bg-blue-600 text-white px-4 py-2 rounded-full font-bold hover:bg-blue-900 ">CSS</a></li>
+          <li><a href="#" class="bg-blue-500 dark:bg-blue-600 text-white px-4 py-2 rounded-full font-bold hover:bg-blue-900  ">PHP</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+    <section id="followers" class="py-8">
+      <div class="bg-yellow-100 dark:bg-gray-700 p-8 rounded-2xl shadow-lg border-l-4 border-blue-500 max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-4 tracking-tight before:text-blue-500 before:font-bold">Followers</h2>
+        <a href="#"><img src="./logo5.png" alt="Followers" class="w-24 mx-auto my-4 rounded-lg cursor-pointer hover:scale-110 hover:brightness-110 hover:shadow-2xl hover:rotate-3 transition-all duration-300"></a>
+        <p><strong>2.43k Followers</strong></p>
+      </div>
+    </section>
+
+    <section id="learned" class="py-8">
+      <div class="group bg-purple-50 dark:bg-gray-700 p-8 rounded-2xl shadow-lg border-l-4 border-blue-500">
+        <h2 class="text-2xl font-bold text-blue-900 dark:text-blue-300 mb-4 tracking-tight relative before:content-['→'] before:text-blue-500">What I’ve Learned</h2>
+        <ul class="list-none space-y-2">
+          <li>Improved my technical and design skills</li>
+          <li>Gained confidence to work independently</li>
+          <li>Learned to build and style complete webpages</li>
+          <li>Discovered the importance of clean code and structure</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer class="bg-gradient-to-r from-blue-900 to-blue-600 text-white text-center p-6 mt-8">
+    <div class="max-w-6xl mx-auto">
+      <p><strong>Posted on:</strong> <time datetime="2025-03-13">13 March 2025</time></p>
+      <p>© 2025 Faizan Ahmad. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
